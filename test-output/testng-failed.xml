@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="javaprogram.programs">
+      <class name="javaprogram.prog">
         <methods>
-          <include name="compressString"/>
+          <include name="sum"/>
         </methods>
-      </class> <!-- javaprogram.programs -->
+      </class> <!-- javaprogram.prog -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
